@@ -12,7 +12,14 @@ def remove_numbers(s):
     i+=1
   return r
 def stressless(arg):
-  return [remove_numbers(i) for i in cmu[arg][0]]
+  t= [remove_numbers(i) for i in cmu[arg][0]]
+  r=[]
+  i=0
+  while i!=len(t):
+    if t[i]!='':
+      r.append(t[i])
+    i+=1
+  return r
 def vowel(arg):
   return arg in [
     'AA',
