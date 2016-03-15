@@ -8,7 +8,7 @@ def remove_numbers(s):
   r=""
   i=0
   while i!=len(s):
-    r+=s[i] if num(s[i]) else ""
+    r+=s[i] if not num(s[i]) else ""
     i+=1
   return r
 def stressless(arg):
