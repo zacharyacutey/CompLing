@@ -27,7 +27,7 @@ def vowel(arg):
     'AH',
     'AO',
     'AW',
-    'AX'
+    'AX',
     'AY',
     'EH',
     'ER',
